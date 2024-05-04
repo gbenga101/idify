@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="register.css">
+    <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon">
+    <title>IDIFY REGISTRATION</title>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <div class="logo">
+                <a href="./index.html"><img src="./assets/IDIFY logo2.png" alt="Idify logo"></a>
+            </div>
+            <div class="head">
+                <p>Sign up</p>
+                <a href="./index.html">X</a>
+            </div>
+            <form action="#" method="get" target="_blank">
+                <label for="surname">Surname<span>*</span></label><br><br>
+                <input type="text" id="surname" name="surname" placeholder="Enter your Surname here" required><br><br>
+
+                <label for="firstname">Firstname<span>*</span></label><br><br>
+                <input type="text" id="firstname" name="firstName" placeholder="Enter your Firstname here" required><br><br>
+
+                <label for="email">Email<span>*</span></label><br><br>
+                <input type="email" id="email" name="userEmail" placeholder="Enter your current email" required><br><br>
+
+                <label for="adLink">Select Admission link</label><br><br>
+                <select name="Admission link" id="adLink">
+                    <option value="Select Admission link">--Select--</option>
+                    <option value="Freshers">Freshers Student</option>
+                    <option value="Returning">Returning Student</option>
+                </select><br><br>
+
+                <label for="program">Select Program</label><br><br>
+                <select name="program" id="program">
+                    <option value="Select Program">--Select--</option>
+                    <option value="fullTimer">Full-time Student</option>
+                    <option value="partTimer">Part-time Student</option>
+                </select><br><br>
+                <p>Select Department</p>
+                <div class="selectDept">
+                    <label for="department">Computer Science</label>
+                    <input type="radio" name="computer_science" id="department">
+                </div>
+
+                <label for="level">Select Level</label><br><br>
+                <select name="Select level" id="level">
+                    <option value="Select">--Select--</option>
+                    <option value="ND1">National Diploma I (ND I)</option>
+                    <option value="ND2">Higher National Diploma I (HND I)</option>
+                </select><br>
+
+                <div class="agree">
+                <input type="checkbox" name="Accept T&C" id="agree" required>
+                <label for="agree">I accept NACOS <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a></label><br>
+                </div>
+                
+                <input type="submit" value="Proceed">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
