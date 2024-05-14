@@ -69,3 +69,37 @@ p > span{
     color: #fff;
     border-radius: 10px;
 }
+.cfm > a:hover{
+    font-variant: small-caps;
+    font-weight: bold;
+    transition: ease-in-out .0.5s;
+}
+/*Moving to Mobile screen*/
+@media screen and (max-width: 600px){
+    body{
+        width: 100%;
+    }
+    .container{
+        margin: 30px 15%;
+        height: auto;
+        width: 350px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    .content{
+        width: 95%;
+        margin: 20px 0;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+    }
+    h2{
+        font-size: 18px;
+    }
+    p{
+        width: 320px;
+    }
+}
