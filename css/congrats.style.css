@@ -35,3 +35,37 @@ body *{
     width: 180px;
     height: 75px;
 }
+.mark{
+    margin: 10px auto;
+    padding: 20px;
+    width: 100px;
+    height: 100px;
+    background-color: #0AB43A;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+h2{
+    font-size: 23px;
+    font-weight: bold;
+    font-style: italic;
+}
+p{
+    width: 500px;
+    margin: 20px auto;
+}
+p > span{
+    color: #0AB43A;
+    font-weight: bold;
+}
+.cfm{
+    margin: 35px auto 50px;
+}
+.cfm > a{
+    padding: 15px 45px;
+    text-decoration: none;
+    background-color: #0AB43A;
+    color: #fff;
+    border-radius: 10px;
+}
